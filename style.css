@@ -1,0 +1,158 @@
+body {
+  font-family: 'Open-sans', sans-serif;
+  font-size: 14px;
+  background-color: rgba(235, 235, 235, 0.3);
+  margin: 0;
+  text-align: center
+}
+
+h1 {
+  font-size: 34px;
+}
+
+#titlepage{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: red;
+}
+
+#meutexto{
+  font-size: 16px;
+}
+
+#minhafoto{
+  border: 10px solid #E2E2E2;
+  border-radius: 50%;
+  width: 17%;
+  margin: 0px;
+  position: absolute;
+  left: 50px;
+  top: 250px;
+}
+
+#minhafoto:hover {
+   transform: scale(1.2);
+}
+
+.fotodecima{
+  position: relative;
+  height: 150px;
+  background-image: linear-gradient(rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.3) 50%),
+           url("images/bemvindo.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  background-attachment: fixed;
+}
+
+.cities h3{
+  font-family: 'Open-sans', sans-serif;
+  font-size: 18px;
+  color: rgba(5,5,5,0.6);
+ }
+
+.cities p {
+  font-family: 'Roboto',sans-serif;
+  font-size: 14px;
+  color: rgb(20,20,20);
+}
+.pic_city {
+  width: 150px;
+  height: 150px;
+  border: 15px solid #E2E2E2;
+  border-radius: 5px;
+}
+.pic_city:hover {
+   transform: scale(1.2);
+}
+
+.container{
+  width: 85%;
+  margin: 0 auto;
+  }
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+  #minhafoto{
+  border: 10px solid #E2E2E2;
+  border-radius: 50%;
+  width: 17%;
+  margin: 0px;
+  position: absolute;
+  left: 50px;
+  top: 250px;
+}
+}
+@media (max-width: 720px) {
+  .container {
+    width: 600px;
+  }
+  #minhafoto{
+  border: 10px solid #E2E2E2;
+  border-radius: 50%;
+  width: 30%;
+  margin: 0px;
+  position: absolute;
+  left: 50px;
+  top: 250px;
+}
+}
+@media (max-width: 540px) {
+  .container {
+    width: 400px;
+  }
+  #minhafoto{
+  display: none;
+}
+.fotodecima{
+  position: relative;
+  height: 150px;
+  background-image: linear-gradient(rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.3) 50%),
+           url("images/me.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  background-attachment: fixed;
+}
+
+}
+
+
+.divinho{
+   border: 3px solid #E2E2E2;
+   margin: 40px;
+   padding: 5px;
+   border: 5px solid #E2E2E2;
+   border-radius: 5px;
+   box-shadow: 1px 1px 3px #E6E6E6;
+   background-color: rgba(225, 225, 225, 0.5);
+}
+.socialmedia li {
+  font-size: 18px;
+  border-radius: 5px;
+  border: 15px solid #E2E2E2;
+  display: inline-block;
+  list-style: none;
+  text-decoration: none;
+  text-align: justify;
+}
+
+.socialmedia li:hover {
+  font-size: 18px;
+  color: red;
+  display: inline-block;
+  list-style: none;
+  text-decoration: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: red;
+}
